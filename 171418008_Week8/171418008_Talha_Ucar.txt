@@ -1,0 +1,6 @@
+1-)Genellikle, bir kesme donanım tarafından sıraya alınır. çoğu çevre birimi, açık bir eylemle temizlenene kadar kesme hatlarını onaylanmış durumda tutacaktır. 
+Bu, CPU ilk kez ileri sürüldüğünde kesmeyi almasa bile, 
+çevre birimin kesme hattını aktif tutacağı ve CPU sonunda IRQ veya FIQ'nun maskesini kaldırdığında kesmenin alınacağı anlamına gelir 
+
+
+2-) CPU herhangi bir anda yalnızca bir işlem çalıştırsa da, işlemler arasında hızlı geçiş, birçok işlemin aynı anda çalışıyormuş gibi görünmesini sağlar.
